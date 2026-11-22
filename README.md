@@ -4,4 +4,4 @@
 
 # The plan make.fun will carry out
 
-Entry for the make.fun bounty "The plan make.fun will carry out in public": the program writes one plan (272 code points) for turning $100 into the most money in 30 days, with every step carried out by the AI agent itself. The embedded plan — 30-second video tours for realtors — won a three-model judge panel (aggregate 0.567 against 0.483 and 0.450 for the two rival plans).
+The winning plan turns listing photos into 30-second video tours for realtors, sold at $15 per video in packs of 10 toward a $1,350 target. It won a trio-model panel (glm, minimax, deepseek) with an aggregate score of 0.567 against two rival plans.
