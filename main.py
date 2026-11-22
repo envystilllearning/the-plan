@@ -1,11 +1,10 @@
 import os
 
-# the-plan entry: writes the panel-winning plan text to entry.txt.
 PLAN = (
-    "Day 1: pick realtors. Day 2-5: build a script turning listing photos into 30s video tours; "
-    "render 3 free samples. Day 6-15: DM 300 agents samples; $15/video, 5-pack $60. "
-    "Day 16-30: batch-produce orders, raise price 20% after 20 sales, sell template for $99. "
-    "Likely hold ~$850."
+    "Days 1-3: build a pipeline turning listing photos into 30s video tours "
+    "with captions/music. Days 4-12: scrape new listings; send each agent a "
+    "free sample of their own listing; $15/video, packs of 10. Days 13-30: "
+    "same-day delivery, upsell plans. Target: 90 videos = $1,350."
 )
 
 
@@ -15,6 +14,7 @@ def main():
     path = os.path.join(out_dir, "entry.txt")
     with open(path, "w", encoding="utf-8") as f:
         f.write(PLAN)
+    print(len(PLAN))  # code points written to entry.txt
 
 
 if __name__ == "__main__":
